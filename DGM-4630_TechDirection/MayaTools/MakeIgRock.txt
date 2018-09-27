@@ -1,0 +1,95 @@
+proc MakeBaseRock()
+{
+    polyPlatonic -primitive 4 -subdivisionMode 0 -subdivisions 4 -radius 1 -sphericalInflation 1 ;
+    nSoft -c ;
+    turbulence -pos 0 0 0 -m 5 -att 1 -f 1 -phaseX 0 -phaseY 0 -phaseZ 0 -noiseLevel 15 -noiseRatio 0.707  -mxd -1  -vsh none -vex 0 -vof 0 0 0 -vsw 360 -tsr 0.5 ;
+    connectDynamic -f turbulenceField1  pPlatonic1ParticleShape ;
+    currentTime 1 ;
+    currentTime 2 ;
+    currentTime 3 ;
+    currentTime 4 ;
+    currentTime 5 ;
+    currentTime 6 ;
+    currentTime 7 ;
+    currentTime 8 ;
+    pickWalkLeft ;
+    pickWalkLeft ;
+    duplicate -rr ;
+    select -all ;
+    select -d "pPlatonic2" ;
+    doDelete ;
+    select -r "pPlatonic2" ;
+    pickWalk -d down ;
+    pickWalk -d right ;
+    doDelete ;
+    setAttr "pPlatonic2.scaleX" 10 ;
+    setAttr "pPlatonic2.scaleY" 10 ;
+    setAttr "pPlatonic2.scaleZ" 10 ;
+    select -cl ;
+}
+proc Randomize(int $num, int $range)
+{
+    for ($j=0; $j<$num; $j++)
+    {
+        float $xPos = `rand ($range*-1) $range`;
+        float $yPos = `rand ($range*-1) $range`;
+        float $zPos = `rand ($range*-1) $range`;
+        
+        select -r "BubbleBase";
+        duplicate -name "Bubble" ;
+        
+        float $uniScale = `rand ($range*0.25)`;
+        
+        move $xPos $yPos $zPos "BubbleBase";
+        scale $uniScale $uniScale $uniScale "BubbleBase";
+    }
+}
+proc MakeBubbles(int $numOfBubbles)
+{
+    polyPlatonic -primitive 4 -subdivisionMode 0 -subdivisions 2 -radius 1 -sphericalInflation 1 ;
+    rename "BubbleBase";
+
+    Randomize($numOfBubbles, 10);
+}
+
+proc MakeBool()
+{
+    select -cl ;
+    SelectAll;
+    string $sels[] = `ls -sl`;
+        for ($i=0; $i<size($sels); $i++)
+        {
+            if($i == 0)
+            {
+                select -r $sels[0] ;
+                select -add $sels[1] ;
+                polyCBoolOp -op 2 -ch 1 -preserveColor 0 -classification 1 ;
+                DeleteHistory;
+            }
+            else
+            {
+                if(size($sels) >= ($i + 2))
+                {
+                    select -add $sels[$i + 1] ;
+                    polyCBoolOp -op 2 -ch 1 -preserveColor 0 -classification 1 ;
+                    DeleteHistory;
+                }
+            }
+        }
+}
+proc BuildRock(int $bubbleSets)
+{
+    MakeBaseRock();
+    for($i=0; $i<($bubbleSets); $i++)
+        {
+            select -all ;
+            currentTime ($i + 1) ;
+            SetKey ;
+            
+            MakeBubbles(10);
+            MakeBool();
+            //SelectAll;
+            //DeleteHistory;
+        }
+}
+BuildRock(10);

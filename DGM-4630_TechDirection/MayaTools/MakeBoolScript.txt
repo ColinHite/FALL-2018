@@ -1,0 +1,37 @@
+string $sels[] = `ls -sl`;
+    for ($i=0; $i<size($sels); $i++)
+    {
+            if($i == 0)
+            {
+                select -r $sels[0] ;
+            }
+            if($i > 0)
+            {
+                select -r ("polySurface" + $i) ;
+            }
+        select -add $sels[$i + 1] ;
+        polyCBoolOp -op 2 -ch 1 -preserveColor 0 -classification 1 ;
+        select -cl ;
+    }
+    
+//string $sels[] = `ls -sl`;
+//select -r "pPlatonic1" ;
+//select -add $sels[$i + 1] ;
+
+-------------
+
+string $sels[] = `ls -sl`;
+    for ($i=0; $i<size($sels); $i++)
+    {
+            if($i == 0)
+            {
+                select -r $sels[0] ;
+                select -add $sels[$i + 1] ;
+            }
+        polyCBoolOp -op 2 -ch 1 -preserveColor 0 -classification 1 ;
+        select -add $sels[($i + 1) + 1] ;
+    }
+    
+//string $sels[] = `ls -sl`;
+//select -r "pPlatonic1" ;
+//select -add $sels[$i + 1] ;
