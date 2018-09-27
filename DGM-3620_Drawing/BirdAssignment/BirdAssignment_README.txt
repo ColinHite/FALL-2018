@@ -1,0 +1,1 @@
+This assignment's purpose is to design a character that would (in theory) be able to take the role of Kevin in the popular pixar film UP. In this case the context is early development of the movie where various plot points are still fluid.
