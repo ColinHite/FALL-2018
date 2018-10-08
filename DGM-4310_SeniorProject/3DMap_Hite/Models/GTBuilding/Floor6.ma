@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Floor6.ma
-//Last modified: Mon, Oct 08, 2018 12:18:46 PM
+//Last modified: Mon, Oct 08, 2018 12:43:26 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "0E0076CA-4EAE-9B12-2C01-C295A8E3EBBF";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.95136276135906683 14.549069858484248 10.633546313185157 ;
-	setAttr ".r" -type "double3" -45.338352729605859 10.200000000001062 0 ;
+	setAttr ".t" -type "double3" 8.5470194484191069 19.596692868134983 13.744829637161443 ;
+	setAttr ".r" -type "double3" -43.538352729606153 35.000000000001101 -1.9413701666485006e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "26143C66-4FBC-E214-27BD-77AF620EC1CB";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 18.045855494856433;
+	setAttr ".coi" 25.967041532450967;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -191,7 +191,6 @@ createNode polyPlane -n "polyPlane1";
 createNode displayLayer -n "layer1";
 	rename -uid "FD91AFFE-47A4-1079-8E28-7F8316748B18";
 	setAttr ".dt" 2;
-	setAttr ".v" no;
 	setAttr ".do" 1;
 createNode polyExtrudeEdge -n "polyExtrudeEdge1";
 	rename -uid "EB6FB4DC-4011-FF40-6330-17AAD8A32430";
