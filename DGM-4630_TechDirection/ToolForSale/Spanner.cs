@@ -4,26 +4,12 @@ using UnityEngine;
 
 public class Spanner : MonoBehaviour {
 
-    public GameObject pointOne;
-	public GameObject pointTwo;
+    //public GameObject pointOne;
+	//public GameObject pointTwo;
 
-    public GameObject midPoint;
+    //public GameObject midPoint;
 
-    // Use this for initialization
-    void Start ()
-	{
-	    Vector3 result = FindMidPoint(pointOne, pointTwo);
 
-	    midPoint.transform.position = result;
-	    float resultOfSlope = FindSlopeAngle(pointOne, pointTwo);
-	    //print(resultOfSlope);
-        float resultOfAltSlope = FindZAngle(pointOne, pointTwo);
-        //print(resultOfAltSlope);
-
-        midPoint.transform.Rotate(0, resultOfAltSlope, 0);
-        midPoint.transform.Rotate(resultOfSlope, 0, 0);
-        //midPoint.transform.rotation = new Quaternion ((midPoint.transform.rotation.x + resultOfSlope), midPoint.transform.rotation.y, midPoint.transform.rotation.z, midPoint.transform.rotation.w);
-    }
 
 	static Vector3 FindMidPoint(GameObject pointOne, GameObject pointTwo)
 	{
@@ -118,5 +104,45 @@ public class Spanner : MonoBehaviour {
         }
         //Return the angle derived from the second base triangle
         return angleAalt;
+    }
+
+    static float ScaleSpan(GameObject pointOne, GameObject pointTwo)
+    {
+        //Establish the X, Y, and Z for the first locator
+        float pointOneX = pointOne.transform.position.x;
+        float pointOneY = pointOne.transform.position.y;
+        float pointOneZ = pointOne.transform.position.z;
+
+        //Establish the X, Y, and Z for the second locator
+        float pointTwoX = pointTwo.transform.position.x;
+        float pointTwoY = pointTwo.transform.position.y;
+        float pointTwoZ = pointTwo.transform.position.z;
+
+        //Find the distance of every line segment
+        float disBtwnAnB = Mathf.Sqrt(Mathf.Pow(pointTwoX - pointOneX, 2) + Mathf.Pow(pointTwoY - pointOneY, 2) + Mathf.Pow(pointTwoZ - pointOneZ, 2));
+
+        return disBtwnAnB;
+    }
+
+    public void CreateSpan(GameObject pointOne, GameObject pointTwo, GameObject[] midPoints, int indexer)
+    {
+
+        Vector3 result = FindMidPoint(pointOne, pointTwo);
+        float resultOfSlope = FindSlopeAngle(pointOne, pointTwo);
+        //print(resultOfSlope);
+        float resultOfAltSlope = FindZAngle(pointOne, pointTwo);
+        //print(resultOfAltSlope);
+
+            
+            //print(result);
+            if (result != new Vector3( 0, 0, 0))
+            {
+                midPoints[indexer].transform.position = result;
+            }
+            //print("reached desired code");
+            midPoints[indexer].transform.Rotate(0, resultOfAltSlope, 0);
+            midPoints[indexer].transform.Rotate(resultOfSlope, 0, 0);
+            //midPoint.transform.rotation = new Quaternion(resultOfSlope, resultOfAltSlope, 0, 0);
+            midPoints[indexer].transform.localScale = new Vector3(1, 1, ScaleSpan(pointOne, pointTwo));
     }
 }
