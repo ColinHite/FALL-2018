@@ -18,20 +18,7 @@ public class ElevatorMove : MonoBehaviour {
 		//when I press a button I want the elevator to move to the selected index in my array
         if (Input.GetKeyDown(KeyCode.R))
         {
-            while (elevator.transform.position.y != floors[floorIndex].transform.position.y)
-            {
-                if(elevator.transform.position.y < floors[floorIndex].transform.position.y)
-                {
-                    elevator.transform.Translate(0, (speed * Time.deltaTime), 0);
-                }
-                if(elevator.transform.position.y > floors[floorIndex].transform.position.y)
-                {
-                    elevator.transform.Translate(0, (speed * Time.deltaTime * -1), 0);
-                }
-                //move the elevator object to the point in the array I made
-                //floors[floorIndex].transform.Translate.
-                
-            }
+            elevator.transform.position = floors[floorIndex].transform.position;
         }
 	}
 }

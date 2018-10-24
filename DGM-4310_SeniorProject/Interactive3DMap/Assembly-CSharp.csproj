@@ -63,10 +63,16 @@
   <ItemGroup>
     <Compile Include="Assets\MouseLook.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\Container.cs" />
+    <Compile Include="Assets\Scripts\CreateGraph.cs" />
+    <Compile Include="Assets\Scripts\Elevator.cs" />
     <Compile Include="Assets\Scripts\ElevatorMove.cs" />
     <Compile Include="Assets\Scripts\ElevatorMovement.cs" />
+    <Compile Include="Assets\Scripts\ElevatorTele.cs" />
     <Compile Include="Assets\Scripts\Movement\UserMovement.cs" />
+    <Compile Include="Assets\Scripts\NewNav.cs" />
     <Compile Include="Assets\Scripts\PointToPoint.cs" />
+    <Compile Include="Assets\Scripts\Spanner.cs" />
     <Compile Include="Assets\Test.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Github/FALL-2018/DGM-4310_SeniorProject/Interactive3DMap/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
