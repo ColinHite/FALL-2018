@@ -5,12 +5,18 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Elevator3
     100002: //RootNode
+    100004: RightElevator_LooseAdornments
     400000: Elevator3
     400002: //RootNode
+    400004: RightElevator_LooseAdornments
     2100000: Elevator3Mat
+    2100002: initialShadingGroup
     2300000: Elevator3
+    2300002: RightElevator_LooseAdornments
     3300000: Elevator3
+    3300002: RightElevator_LooseAdornments
     4300000: Elevator3
+    4300002: RightElevator_LooseAdornments
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -42,7 +48,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 10
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -61,7 +67,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
