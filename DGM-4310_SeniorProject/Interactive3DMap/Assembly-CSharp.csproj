@@ -63,12 +63,18 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Container.cs" />
     <Compile Include="Assets\Scripts\ElevatorTele.cs" />
+    <Compile Include="Assets\Scripts\LoadNextScene.cs" />
     <Compile Include="Assets\Scripts\Misc\CameraMove.cs" />
     <Compile Include="Assets\Scripts\Misc\Elevator.cs" />
     <Compile Include="Assets\Scripts\Misc\ElevatorMove.cs" />
     <Compile Include="Assets\Scripts\Misc\ElevatorMovement.cs" />
     <Compile Include="Assets\Scripts\Misc\PointToPoint.cs" />
     <Compile Include="Assets\Scripts\Misc\Test.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Quit.cs" />
+    <Compile Include="Assets\Scripts\TurnOffHelp.cs" />
+    <Compile Include="Assets\Scripts\TurnOnRoomInfo.cs" />
+    <Compile Include="Assets\Scripts\UISwitchCanvas.cs" />
     <Compile Include="Assets\Scripts\UserScripts\CreateGraph.cs" />
     <Compile Include="Assets\Scripts\UserScripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\UserScripts\Movement\UserMovement.cs" />
