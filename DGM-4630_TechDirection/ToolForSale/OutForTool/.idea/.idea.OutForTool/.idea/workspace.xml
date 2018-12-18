@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1b4f03d-4ffc-413b-a64c-6ae52d516d2c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ShowDataOnLoc.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/ShowDataOnLoc.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <marker date="1543428850618" expanded="false" signature="6:63" ph="..." />
+                <marker date="1543428850618" expanded="true" signature="137:514" ph="{...}" />
+                <marker date="1543428850618" expanded="true" signature="158:512" ph="{...}" />
+                <marker date="1543428850618" expanded="true" signature="256:296" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowDataOnLocHead.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/ShowDataOnLocHead.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <marker date="1540877892000" expanded="false" signature="6:63" ph="..." />
+                <marker date="1540877892000" expanded="true" signature="143:577" ph="{...}" />
+                <marker date="1540877892000" expanded="true" signature="164:575" ph="{...}" />
+                <marker date="1540877892000" expanded="true" signature="255:274" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawBwtnPoints.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/DrawBwtnPoints.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-289">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+              <folding>
+                <marker date="1543428147276" expanded="false" signature="6:114" ph="..." />
+                <marker date="1543428147276" expanded="true" signature="160:6713" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="761:1677" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="1709:2478" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="2028:2292" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="2096:2282" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="2320:2472" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="2572:2821" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="2858:4338" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="3279:4303" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="4376:5632" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="4451:5590" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="5668:6711" ph="{...}" />
+                <marker date="1543428147276" expanded="true" signature="5737:6673" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawOnSecLoc.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/DrawOnSecLoc.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1543429446370" expanded="false" signature="6:97" ph="..." />
+                <marker date="1543429446370" expanded="true" signature="141:1188" ph="{...}" />
+                <marker date="1543429446370" expanded="true" signature="463:1186" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditorScript.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/EditorScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="77" lean-forward="true" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+              <folding>
+                <marker date="1543429536287" expanded="true" signature="6:97" ph="..." />
+                <marker date="1543429536287" expanded="true" signature="139:1844" ph="{...}" />
+                <marker date="1543429536287" expanded="true" signature="328:1506" ph="{...}" />
+                <marker date="1543429536287" expanded="true" signature="356:406" ph="{...}" />
+                <marker date="1543429536287" expanded="true" signature="431:481" ph="{...}" />
+                <marker date="1543429536287" expanded="true" signature="507:555" ph="{...}" />
+                <marker date="1543429536287" expanded="true" signature="1580:1839" ph="{...}" />
+                <marker date="1543429536287" expanded="true" signature="1608:1669" ph="{...}" />
+                <marker date="1543429536287" expanded="true" signature="1693:1752" ph="{...}" />
+                <marker date="1543429536287" expanded="true" signature="1777:1836" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/DrawBwtnPoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/EditorScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ShowDataOnLocHead.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ShowDataOnLoc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DrawOnSecLoc.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Editor/ShowDataOnLoc.cs" />
+        <option value="$PROJECT_DIR$/Assets/DrawOnSecLoc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/EditorScript.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="73" />
+    <option name="y" value="-18" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="OutForTool" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1b4f03d-4ffc-413b-a64c-6ae52d516d2c" name="Default" comment="" />
+      <created>1543428550065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543428550065</updated>
+      <workItem from="1543428551311" duration="1785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1785000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/ShowDataOnLoc.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1543428850618" expanded="false" signature="6:63" ph="..." />
+            <marker date="1543428850618" expanded="true" signature="137:514" ph="{...}" />
+            <marker date="1543428850618" expanded="true" signature="158:512" ph="{...}" />
+            <marker date="1543428850618" expanded="true" signature="256:296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/ShowDataOnLocHead.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1540877892000" expanded="false" signature="6:63" ph="..." />
+            <marker date="1540877892000" expanded="true" signature="143:577" ph="{...}" />
+            <marker date="1540877892000" expanded="true" signature="164:575" ph="{...}" />
+            <marker date="1540877892000" expanded="true" signature="255:274" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DrawBwtnPoints.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <marker date="1543428147276" expanded="false" signature="6:114" ph="..." />
+            <marker date="1543428147276" expanded="true" signature="160:6713" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="761:1677" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="1709:2478" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="2028:2292" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="2096:2282" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="2320:2472" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="2572:2821" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="2858:4338" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="3279:4303" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="4376:5632" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="4451:5590" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="5668:6711" ph="{...}" />
+            <marker date="1543428147276" expanded="true" signature="5737:6673" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DrawOnSecLoc.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1543429446370" expanded="false" signature="6:97" ph="..." />
+            <marker date="1543429446370" expanded="true" signature="141:1188" ph="{...}" />
+            <marker date="1543429446370" expanded="true" signature="463:1186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/EditorScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="77" lean-forward="true" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+          <folding>
+            <marker date="1543429536287" expanded="true" signature="6:97" ph="..." />
+            <marker date="1543429536287" expanded="true" signature="139:1844" ph="{...}" />
+            <marker date="1543429536287" expanded="true" signature="328:1506" ph="{...}" />
+            <marker date="1543429536287" expanded="true" signature="356:406" ph="{...}" />
+            <marker date="1543429536287" expanded="true" signature="431:481" ph="{...}" />
+            <marker date="1543429536287" expanded="true" signature="507:555" ph="{...}" />
+            <marker date="1543429536287" expanded="true" signature="1580:1839" ph="{...}" />
+            <marker date="1543429536287" expanded="true" signature="1608:1669" ph="{...}" />
+            <marker date="1543429536287" expanded="true" signature="1693:1752" ph="{...}" />
+            <marker date="1543429536287" expanded="true" signature="1777:1836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
